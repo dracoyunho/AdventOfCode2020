@@ -1,3 +1,4 @@
+muted gold bags contain no other bags.
 dark olive bags contain 2 muted brown bags, 1 mirrored tomato bag, 4 bright black bags.
 faded coral bags contain 3 drab cyan bags, 1 light aqua bag.
 plaid plum bags contain 2 mirrored cyan bags.
@@ -393,7 +394,6 @@ dim maroon bags contain 2 wavy maroon bags, 5 dim violet bags, 4 dark tan bags.
 plaid purple bags contain 2 dark teal bags, 2 mirrored black bags, 1 wavy lavender bag.
 dull blue bags contain 1 bright gold bag, 2 dim olive bags, 4 muted chartreuse bags, 2 striped salmon bags.
 muted white bags contain 4 light bronze bags, 3 wavy beige bags.
-muted gold bags contain no other bags.
 drab green bags contain 2 plaid chartreuse bags.
 clear coral bags contain 5 mirrored cyan bags.
 drab turquoise bags contain 3 posh black bags.
