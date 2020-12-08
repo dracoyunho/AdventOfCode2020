@@ -24,18 +24,6 @@ func BagsEqual(a, b Bag) bool {
 	return false
 }
 
-// ContainsBag checks against a ruleset to see if the desired bag will be in the outer bag
-// It will return true if one of the bags inside the outer bag is the target and false otherwise
-// func ContainsBag(outerBag Bag, targetBag Bag, ruleset map[Bag]map[Bag]int) bool {
-// 	bagsInside := ruleset[outerBag] // Set to a map[Bag]int
-// 	for bagInside := range bagsInside {
-// 		if BagsEqual(bagInside, targetBag) {
-// 			return true
-// 		}
-// 	}
-// 	return false
-// }
-
 // WillContainBag searches recursively for a target bag given some outermost bag and a ruleset of bags in a bag
 func WillContainBag(outerBag, targetBag Bag, ruleset map[Bag]map[Bag]int) bool {
 	// The terminating cases are 1) the outer bag's contents contains the target (true) or 2) the outer bag contains no bags (false)
@@ -91,7 +79,7 @@ func main() {
 	// oui, je regrette tout
 	// For now, just compile the ruleset one level deep. It should be good enough.
 	ruleset := make(map[Bag]map[Bag]int)
-	reBagsIn := regexp.MustCompile("\\w+ \\w+ \\w+") // Everything after the bag colour; if there are multiple, just FindAllString
+	reBagsIn := regexp.MustCompile("\\w+ \\w+ \\w+") // The punctuation after {quantity} {descriptor} {colour} can be ignored
 	for _, rule := range input {
 		ruleSplit := strings.Split(rule, " bags contain ")
 
