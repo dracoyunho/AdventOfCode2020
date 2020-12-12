@@ -221,5 +221,5 @@ func main() {
 	//   - If state is L then check the eight directions for non-floor; if no #, transition the L to #
 	//   - If state is # then check the eight directions for non-floor; if >= 5 #, transition the # to L
 	resolvedDeckV2 := ResolveDeck(deck, 2)
-	log.Println("P2 | FILLED SEATS:", PrintDeck(resolvedDeckV2, true))
+	log.Println("P2 | FILLED SEATS:", PrintDeck(resolvedDeckV2, false))
 }
