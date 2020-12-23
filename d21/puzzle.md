@@ -37,6 +37,6 @@ In the above example:
     fvjkl contains soy.
 ```
 
-Arrange the ingredients alphabetically by their allergen and separate them by commas to produce your canonical dangerous ingredient list. (There should not be any spaces in your canonical dangerous ingredient list.) In the above example, this would be mxmxvkd,sqjhc,fvjkl.
+Arrange the ingredients alphabetically by their allergen and separate them by commas to produce your canonical dangerous ingredient list. (There should not be any spaces in your canonical dangerous ingredient list.) In the above example, this would be `mxmxvkd,sqjhc,fvjkl`.
 
 Time to stock your raft with supplies. What is your canonical dangerous ingredient list?
